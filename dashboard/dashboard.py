@@ -108,7 +108,7 @@ st.plotly_chart(fig2)
 
 # Comparison of casual and registered users by day of the week
 
-st.subheader('Comparison of Casual Users and Registered Users by Day of The Week')
+st.subheader('Comparison of Casual Users and Registered Users')
 
 fig3 = px.pie(
     daily_user_type_df,

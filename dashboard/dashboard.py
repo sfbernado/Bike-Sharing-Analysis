@@ -7,7 +7,7 @@ sns.set(style='dark')
 
 # Load the cleaned dataset
 
-df = pd.read_csv('https://raw.githubusercontent.com/sfbernado/Bike-Sharing-Analysis/main/data/cleaned_day.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/sfbernado/Bike-Sharing-Analysis/main/dashboard/cleaned_day.csv')
 df['date'] = pd.to_datetime(df['date'])
 
 # Create function
